@@ -137,95 +137,27 @@
         <h2 class="section-title">Project Pilihan</h2>
         <p class="section-subtitle">Karya skripsi, magang, dan aplikasi web yang telah dikembangkan.</p>
       </div>
-      <div class="projects-grid">
-        <div class="project-card">
-          <img src="assets/elearning.png" alt="E-Learning Bahasa Isyarat" class="project-img">
-          <div class="project-content">
-            <h3 class="project-title">E-Learning Bahasa Isyarat Tunarungu Wicara</h3>
-            <p class="project-desc">Aplikasi E-Learning berbasis multimedia interaktif untuk pembelajaran bahasa isyarat bagi penyandang tunarungu wicara. Merupakan project Tugas Akhir (Skripsi).</p>
-            <div class="project-footer">
-              <div class="skill-tags">
-                <span class="skill-tag">GoogleScript</span>
-                <span class="skill-tag">WebApps</span>
-                <span class="skill-tag">Spreadsheets</span>
-              </div>
-              <div class="project-links">
-                <a href="https://script.google.com/macros/s/AKfycbxvisbhbrPMiyRdsm3zT3DKms1ucyYY5wYX2JGnPsCJB7omH4q58hecBpd2T9xASfBj/exec" target="_blank">Lihat Web ↗</a>
-              </div>
+
+      <div class="storefront-showcase" id="storefrontShowcase">
+        <!-- Main Stage (Left) -->
+        <div class="store-main-stage" id="storeMainStage">
+          <div>
+            <img src="" alt="Project Banner" class="store-main-banner" id="mainStageBanner">
+            <div class="store-main-tag" id="mainStageTag">Featured Project</div>
+            <h3 class="store-main-title" id="mainStageTitle">Loading...</h3>
+            <p class="store-main-desc" id="mainStageDesc">Silakan tunggu sebentar...</p>
+          </div>
+          <div>
+            <div class="skill-tags" id="mainStageTags" style="margin-bottom: 1.5rem;"></div>
+            <div>
+              <a href="#" id="mainStageLink" class="btn-primary" target="_blank">Lihat Web ↗</a>
             </div>
           </div>
         </div>
-        <div class="project-card">
-          <img src="assets/lab_fki.png" alt="Website Peminjaman Ruangan LAB FKI" class="project-img">
-          <div class="project-content">
-            <h3 class="project-title">Website Peminjaman Ruangan LAB FKI</h3>
-            <p class="project-desc">Sistem informasi manajemen dan peminjaman ruangan laboratorium berbasis Google Apps Script. Dikembangkan saat magang di UMS.</p>
-            <div class="project-footer">
-              <div class="skill-tags">
-                <span class="skill-tag">AppScript</span>
-                <span class="skill-tag">WebApps</span>
-                <span class="skill-tag">Spreadsheets</span>
-              </div>
-              <div class="project-links">
-                <a href="https://script.google.com/macros/s/AKfycbwoGL3J8Z5_RCGSFg_qJUMPcdm8uShuKkecaNuEp0DdFohi_ZftzWhqMavjVySnYpcM/exec" target="_blank">Lihat Web ↗</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="assets/domain_lens.png" alt="Domain Lens" class="project-img">
-          <div class="project-content">
-            <h3 class="project-title">Domain Lens</h3>
-            <p class="project-desc">Aplikasi web untuk menganalisis dan melacak informasi domain dan DNS. Sudah di-hosting secara publik di Vercel.</p>
-            <div class="project-footer">
-              <div class="skill-tags">
-                <span class="skill-tag">Vercel</span>
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">FastAPI</span>
-                <span class="skill-tag">CSS</span>
-                <span class="skill-tag">HTML</span>
-                <span class="skill-tag">JavaScript</span>
-              </div>
-              <div class="project-links">
-                <a href="https://domain-lab-sandy.vercel.app/" target="_blank">Lihat Web ↗</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="assets/scan_web.png" alt="Aplikasi Scan Web" class="project-img">
-          <div class="project-content">
-            <h3 class="project-title">Aplikasi Scan Web</h3>
-            <p class="project-desc">Project mandiri berbasis Aplikasi Desktop WIndows untuk melakukan pemindaian struktur dan informasi halaman web secara lokal.</p>
-            <div class="project-footer">
-              <div class="skill-tags">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">PySide</span>
-                <span class="skill-tag">HTTPX</span>
-              </div>
-              <div class="project-links" style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">
-                <span>Desktop App (Local)</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="assets/ndalem_kost.png" alt="Website Ndalem-Kost" class="project-img">
-          <div class="project-content">
-            <h3 class="project-title">Website Ndalem-Kost</h3>
-            <p class="project-desc">Platform direktori dan informasi penyewaan kos dengan layout yang informatif, bersih, dan mudah digunakan.</p>
-            <div class="project-footer">
-              <div class="skill-tags">
-                <span class="skill-tag">Laravel</span>
-                <span class="skill-tag">MySQL</span>
-                <span class="skill-tag">PHP</span>
-                <span class="skill-tag">NodeJS</span>
-              </div>
-              <div class="project-links" style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">
-                <span>Local Project</span>
-              </div>
-            </div>
-          </div>
+
+        <!-- Sidebar List (Right) -->
+        <div class="store-sidebar-list" id="storeSidebarList">
+          <!-- Populated dynamically via main.js -->
         </div>
       </div>
     </div>
